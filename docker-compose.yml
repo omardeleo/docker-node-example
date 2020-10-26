@@ -1,14 +1,15 @@
 version: '3.8'
 
 services:
-  labels:
-    shipyard.route: '/'
+
   express:
+    labels:
+      shipyard.route: '/'
     build:
       context: .
     ports:
       - '3000:3000'
     environment:
-      - 'NODE_ENV=production'
+      - NODE_ENV=production
     volumes:
       - './:/app'
