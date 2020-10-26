@@ -12,4 +12,6 @@ services:
     environment:
       - NODE_ENV=production
     volumes:
-      - './:/app'
+      - myapp:/app
+volumes:
+  myapp:
