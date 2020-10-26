@@ -5,6 +5,9 @@
   "main": "server.js",
   "author": "Ryan Chenkie, Jason Lam",
   "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "bootstrap": "^3.3.6",
     "ejs": "^2.3.4",
