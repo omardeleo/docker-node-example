@@ -35,4 +35,4 @@ app.post('/api/events', api.event);
 app.delete('/api/events/:eventId', api.event);
 
 app.listen(3000);
-console.log('Magic happens on port 8000...');
+console.log('Magic happens on port 3000...');
