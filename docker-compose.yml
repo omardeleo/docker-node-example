@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
 
-  express:
+  node:
     labels:
       shipyard.route: '/'
     build:
