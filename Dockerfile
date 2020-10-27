@@ -1,10 +1,9 @@
 FROM node:current-alpine
 
-RUN mkdir -p /srv && chown node:node /srv
-WORKDIR /srv
-USER node
-COPY package.json package-lock.json* ./
-
+WORKDIR /app
+COPY package.json .
 RUN npm install
 
-COPY . ./
+COPY . .
+
+CMD [ "node", "server.js" ]
