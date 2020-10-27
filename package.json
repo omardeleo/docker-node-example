@@ -6,7 +6,7 @@
   "author": "Ryan Chenkie, Jason Lam",
   "license": "MIT",
   "scripts": {
-    "start": "node server.js"
+    "start": "node src/server.js"
   },
   "dependencies": {
     "bootstrap": "^3.3.6",
